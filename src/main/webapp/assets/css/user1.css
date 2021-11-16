@@ -1,0 +1,367 @@
+li {
+  float: left;
+}
+li a:hover:not(.active) {
+  background-color: #fa0a01;
+ 
+}
+  
+  .active {
+    background-color: #fa0a01;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 45px 50px;
+    text-decoration: none;
+}
+  
+  nav {
+    display: flex;
+    width: 100%;
+    height: 66px;
+    background: black;
+    overflow: auto;
+}
+.logo {
+  width: 106px;
+  height: 89px;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 19px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 20px 144px;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  width: 100%;
+}
+.img{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.w1{
+    padding-left: 60px;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+.box1{
+    padding-left: 370px;
+    margin-top: -12%;
+    font-size: 25px;
+    font-family: impact,charcoal,sans-serif;
+}
+.h1{
+    padding-left: 33px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box2{
+    padding-left:670px;
+    margin-top: -65px;
+    font-size: 25px;
+    font-family: impact,charcoal,sans-serif;
+}
+.box3{
+    padding-left: 970px;
+    margin-top: -65px;
+    font-size: 25px;
+    font-family: impact,charcoal,sans-serif;
+}
+.edge{
+  flex-grow: 2;
+  height: 1px;
+  margin:20px 10px 0px 200px;
+  background-color: #000;
+  border: 1px #000 solid;
+  
+}
+.testButton1
+{
+font-size:20px;
+height:10%;
+width: 160px;
+margin-top: 120px;
+margin-left: 50px;
+border-radius: 8px;
+background-color: rgba(255, 255, 255, 0.76);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.testButton1:hover{
+  background-color: rgba(241, 9, 9, 0.959);
+}
+.testButton1 img
+{
+height:25px;
+vertical-align:middle;
+}
+.testButton5
+{
+font-size:20px;
+height:10%;
+width: 160px;
+margin-top: 120px;
+margin-left: 50px;
+border-radius: 8px;
+background-color: rgba(241, 9, 9, 0.959);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.testButton5:hover{
+  background-color: rgba(241, 9, 9, 0.699);
+}
+.testButton2
+{
+  font-size:20px;
+  height:10%;
+  width: 160px;
+  margin-top: 40px;
+  margin-left: 50px;
+background-color: rgba(255, 255, 255, 0.356);
+border-color:#fa0a01;
+border: 10px;
+border-radius: 9%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.testButton2:hover{
+  background-color: rgba(255, 255, 255, 0.959);
+}
+
+.testButton2 img
+{
+height:25px;
+vertical-align:middle;
+}
+div.transbox {
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 80%;
+  padding-top: -60px;
+  padding-bottom: 20px;
+  width: auto;
+  height: fit-content;
+  background: rgba(71, 68, 68, 0.5);
+}
+.testButton3
+{
+  font-size:20px;
+  height:50px;
+  width: 140px;
+  margin-top: 25px;
+  margin-left: 70px;
+  background-color: rgba(255, 255, 255, 0.356);
+border-radius: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #000;
+}
+.testButton3:hover{
+  background-color: rgba(241, 9, 9, 0.959);
+}
+
+.testButton3 img
+{
+height:25px;
+vertical-align:middle;
+}
+.container{
+  /* max-width: 1200px; */
+  margin-right: 100px;
+  padding-left: 1000px;
+  overflow: auto;
+  padding-left: 322px;
+  margin-top: -890px;
+ }
+ .gallery{
+     margin: 10px;
+     float: left;
+     width: 160px;
+ }
+ .gallery img{
+     width: 160px;
+     height: auto;
+ }
+ .desc{
+     padding: 15px;
+     color: white;
+     text-align: center;
+     font-size: 17px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .testButton4
+{
+  font-size:13px;
+  height:12%;
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 1150px;
+background-color: rgba(255, 255, 255, 0.74) ;
+border-radius: 8px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #000;
+}
+.testButton4 img
+{
+margin-left:3px;
+margin-top: -2px;
+height:14px;
+vertical-align:middle;
+}
+.testButton4:hover{
+  background-color:  rgba(105, 82, 146, 0.247);
+}
+.name1{
+   font-size: 26px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 10px;
+   margin-bottom: 5px;
+   color: white;
+}
+.container2{
+  margin-right: 100px;
+  padding-left: 1000px;
+  overflow: auto;
+  padding-left: 322px;
+  margin-top: -10px;
+ }
+.name2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 26px;
+   margin-left: 10px;
+   margin-bottom: 5px;
+   color: white;
+}
+.container3{
+  margin-right: 100px;
+  padding-left: 1000px;
+  overflow: auto;
+  padding-left: 322px;
+  margin-top: 5px;
+ }
+.name3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 26px;
+   margin-left: 10px;
+   margin-bottom: 5px;
+   color: white;
+}
+.boxcontainer{
+  margin: auto;
+  margin-top: 35px;
+  margin-left: 950px;
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  border: 4px solid black;
+  padding: 0px 10px;
+  border-radius: 50px;
+}
+.elementcontainer{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.search{
+  border: none;
+  width: 290px;
+  height: 30px;
+  margin-top: 2px;
+  padding: 0px 5px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #424242;
+  font-weight: 500;
+}
+.q1{
+  margin-left: 270px;
+  margin-top: -24px;
+}
+.icon{
+  margin-top: -600px;
+  margin-left: 400px;
+}
+.l1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 33px;
+  margin-top: -890px;
+  padding-left: 350px;
+  color: #f2f2f2;
+}
+.l1 p2{
+  margin-left: 45px;
+}
+.l1 p3{
+  margin-left: 60px;
+}
+.l1 p4{
+  margin-left: 85px;
+}
+.l1 p5{
+  margin-left: 100px;
+}
+.footer{
+  width: 100%;
+  height: 10px;
+  background-color: rgb(71, 71, 70);
+  margin-top: 950px;
+  margin-left:-8px;
+  opacity: 50%;
+  padding-bottom: 217px;
+  position: absolute;
+}
+
+.logobox{
+  /* background-color: yellow; */
+  width: 149px;
+  height: 60px;
+  margin: 970px 20px 50px 600px;
+  position: absolute;
+}
+
+.socialmedia{
+  position: absolute;
+  margin: 1110px 0 10px 530px;
+  /* background-color: yellow; */
+  width: 316px;
+  height: 44px;
+}
+
+.form-style input[type=text]{
+  width: 470px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.transbox6 {
+  align-items: center;
+  margin-left: 251px;
+  margin-right: 14%;
+  margin-top: 109px;
+  padding-top: 84px;
+  padding-bottom: 1px;
+  width: auto;
+  height: auto;
+  background: rgba(49, 48, 48, 0.575);
+  opacity: 5px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

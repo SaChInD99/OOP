@@ -1,0 +1,255 @@
+li {
+    float: left;
+  }
+  li a:hover:not(.active) {
+    background-color: #fa0a01;
+   
+  }
+    
+    .active {
+      background-color: #fa0a01;
+  }
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 25px 45px 50px;
+      text-decoration: none;
+  }
+    
+    nav {
+      display: flex;
+      width: 100%;
+      height: 66px;
+      background: black;
+      overflow: auto;
+  }
+  .logo {
+    width: 106px;
+    height: 89px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 19px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 20px 144px;
+    overflow: hidden;
+    background-color: #1a1a1a;
+    width: 100%;
+  }
+.word4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 20px;
+  margin-left: 370px;
+  font-size: 35px;
+}
+.word5{
+    padding-left: 40px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.word5 a{
+    color: #fa0a01;
+    font-size: 20px;
+}
+.word5 a:hover{
+    color: rgb(31, 172, 197);
+  }  
+.container {
+    padding: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+   
+  }
+input[type=text], input[type=password],input[type=email] {
+    width: 60%;
+    color: darkgray;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+.container input[type=password]{
+  width: 60%;
+}
+
+ .container label{
+     text-align: right;
+     padding-right: 490px;
+ }
+ /* .label1{
+     padding-left: 30px;
+ } */
+ .container p{
+     font-size: 12px;
+     padding-left: 0px;
+     color: rgb(0, 0, 0);
+     opacity: 0;
+ }
+ .hov p:hover{
+   visibility: visible;
+   opacity: 0.8;
+   font-size: 15px;
+ }
+ .label2{
+     padding-left: 80px;
+ }
+ .label3{
+    padding-left: 30px;
+} 
+
+.word6{
+    padding-right:410px;
+    font-size: 17px;
+}
+.word7{
+    margin-right: -165px;
+    font-size: 15px;
+    
+}
+button {
+  background-color: #fa0a01;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  height: 52px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+  button:hover {
+    opacity: 0.8;
+  }
+ .word8{
+     padding-right: 78px;
+ } 
+.word9{
+    padding-right: 270px;
+}
+.transbox {
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: auto;
+    height: auto;
+    background: rgba(49, 48, 48, 0.575);
+    opacity: 5px;
+  }
+
+
+.y1{
+    margin: 0 0 0 0;
+    color: #fa0a01;
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    
+}
+ 
+.y2{
+  margin: 0 0 0 0;
+  color: aqua;
+  position: absolute;
+  width: 10px;
+  height: 20px;
+ }   
+    
+    
+
+  .word10{
+    margin-top: -85px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: white;
+  }
+  .robot{
+    margin-left: 10px;
+  }
+  .footer{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(71, 71, 70);
+    margin-top: 150px;
+    margin-left:-8px;
+    opacity: 50%;
+    padding-bottom: 217px;
+    position: absolute;
+  }
+  
+  .logobox{
+    /* background-color: yellow; */
+    width: 149px;
+    height: 60px;
+    margin: 170px 20px 50px 600px;
+    position: absolute;
+  }
+  
+  .socialmedia{
+    position: absolute;
+    margin: 310px 0 10px 530px;
+    /* background-color: yellow; */
+    width: 316px;
+    height: 44px;
+  }
+  .popup {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 560px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -280px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }

@@ -1,0 +1,295 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+
+.logo{
+  width: 106px;
+  height: 89px;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 19px;
+}
+
+.r {
+  list-style-type: none;
+  margin-top: 0px;
+  padding: 0px 0 5px 145px;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  width: 100%;
+}
+
+.l {
+  float: left;
+}
+
+.l a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 45px 50px;
+  text-decoration: none;
+  
+}
+
+.l a:hover:not(.active) {
+  background-color: #fe0000;
+ 
+}
+
+.active {
+  background-color: #fe0000;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 66px;
+  background: black;
+  /* overflow: auto; */
+  margin-top: -44%;
+  margin-left: 0%;
+  position: absolute;
+  /* float: left; */
+}
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #19181D;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0;
+}
+
+
+
+p.current-plan{
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+
+}
+
+p.plan-type{
+  font-weight: 1rem;
+  font-size: 1rem;
+}
+
+.container{
+  text-align: center;
+  width: 1100px;
+  margin-top: 46px;
+  margin-top: 514px;
+}
+
+h1.title{
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.toggle-switch{
+  display: flex;
+  height: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.toggler{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 50px;
+  height: 25px;
+  background-color: #fe0000;
+  border-radius: 25px;
+  margin: 0 1rem;
+  position: relative;
+}
+
+.toggler::before{
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 4px;
+}
+
+.toggler:checked::before{
+  right: 56%;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 100%;
+  margin-top: 0%;
+}
+
+.card{
+  height: 535px;
+  width: 32%;
+  background-color: #22262C;
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.card-price{
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2>span{
+  font-size: 1rem;
+}
+
+#card-3.card-price{
+  font-size: 2rem;
+}
+
+#card-1 .card-price{
+  margin-bottom: 4rem;
+}
+
+.card ul{
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  list-style-type: none;
+}
+
+.card ul li:before{
+  content: "•";
+  margin-right: 0.5rem;
+  color: #fe0000;
+  font-size: 1.5rem;
+}
+
+.cards ul li{
+  margin-bottom: 0.5rem;
+
+}
+
+.card-btn{
+  margin-top: 1rem;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #fe0000;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#card-1 .card-btn:hover,
+#card-3 .card-btn:hover,
+.active .card-btn{
+  background-color: #fe0000;
+}
+
+#maus{
+  background: transparent;
+  color: white;
+  border-color: #545c5c;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+option{
+  font-size: 1.2rem;
+  background-color: #333;
+}
+
+.note{
+  color: #fe0000;
+  font-size: 0.75rem;
+  text-align: left;
+  display: block;
+  margin-top: 5px;
+}
+
+#card-2 ul{
+  margin-top: 1rem;
+}
+
+#card-3 ul{
+  margin-top: 6.5rem;
+
+}
+
+#card-1 ul{
+  margin-top: 6.5rem;
+
+}
+
+#card-1 button{
+  margin-top: 5.6rem;
+
+}
+
+#card-1 button{
+  margin-top: 3.2rem;
+
+}
+
+#card-3 button{
+  margin-top: 3.2rem;
+
+}
+
+.logobox{
+  width: 11%;
+  margin: 4% 0 0% 34%;
+  height: 12%;
+  position: absolute;
+}
+
+
+
+.footerbox{
+  width: 122%;
+  height: 150px;
+  padding-bottom: 217px;
+  background-color: rgba(71, 71, 70, 0.397);
+  margin: 7% 0 0 -120px;
+}
+
+.logof{
+  width: 94%;
+  margin: -44px 0 0 0;
+}
+
+.socialmedia{
+  width: 13%;
+  margin: -90px 0 0 32%;
+  height: 4%;
+  position: absolute;
+}
